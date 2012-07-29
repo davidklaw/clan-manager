@@ -1,0 +1,199 @@
+	A:link {color: #4C4C4C; text-decoration: none; font-weight: bold;}
+	A:visited {color: #4C4C4C; text-decoration: none; font-weight: bold;}
+	A:hover {color: #000000; text-decoration: underline; font-weight: bold;}
+	
+	A.btip:link {color: blue; text-decoration: underline; font-weight: normal; font-family: verdana, arial; font-size: 10px;}
+	A.btip:visited {color: blue; text-decoration: underline; font-weight: normal; font-family: verdana, arial; font-size: 10px;}
+	A.btip:hover {color: blue; text-decoration: none; font-weight: normal; font-family: verdana, arial; font-size: 10px;}
+	
+	A.tip:link {color: blue; text-decoration: underline; font-weight: bold; font-family: verdana, arial; font-size: 11px;}
+	A.tip:visited {color: blue; text-decoration: underline; font-weight: bold; font-family: verdana, arial; font-size: 11px;}
+	A.tip:hover {color: blue; text-decoration: none; font-weight: bold; font-family: verdana, arial; font-size: 11px;}
+	
+body {
+	background: #EFEFEF;
+	margin: 5;
+	color: #000000;
+	font-family: verdana, arial;
+  font-size: 11px;
+ 	}
+
+td {
+	background: #FFFFFF;
+	font-family: Verdana, arial;
+  font-size: 11px;
+  padding: 2;
+	}
+
+li { 
+	padding-top: 2;
+	padding-bottom: 2;
+	}
+
+td.Subject {
+	background: #FFFFFF;
+	font-weight: bold;
+	color: #777777;
+	font-family: Verdana, arial;
+  font-size: 11px;
+  padding: 5;
+  vertical-align: top;
+	}
+
+.ClanNameHeader {
+	font-family: tahoma, arial;
+	color: #333333;
+	font-size: 14pt;
+	font-weight: bold;
+	padding-left: 15;
+	}
+	
+.Header {
+	color: #000033;
+	font-family: verdana, arial;
+  font-size: 11px;
+  font-weight: bold;
+  }
+
+.MenuCellX {
+	background: #EFEFEF;
+	font-family: verdana, arial;
+  font-size: 11px;
+  padding: 0;
+	}
+
+.MenuCell {
+	background: #FFFFFF;
+	font-family: verdana, arial;
+  font-size: 11px;
+	padding: 5;
+	border: 1 solid #888888;
+	}
+
+td.MainCell {
+	font-family: verdana, arial;
+  font-size: 11px;
+	padding: 15;
+	border: 1 solid #888888;
+	}
+	
+.MenuItems {
+	padding-left: 15;
+	padding-top: 5;
+	padding-bottom: 5;
+	font-size: 11px;
+	font-family: arial;
+	}
+	
+.VersionInfo {
+	text-align: center;
+	color: #888888;
+	font-family: verdana, arial;
+  font-size: 11px;
+	}
+	
+input {
+	background: #EFEFEF;
+	font-family: verdana, arial;
+  font-size: 11px;
+  padding: 2;
+  height: 21;
+	border: 1 solid #666666;
+	}
+
+select {
+	background: #EFEFEF;
+	font-family: verdana, arial;
+  font-size: 11px;
+  padding: 2;
+  height: 21;
+	border: 1 solid #666666;
+	}
+
+textarea {
+	background: #EFEFEF;
+	font-family: verdana, arial;
+  font-size: 11px;
+  padding: 2;
+	border: 1 solid #666666;
+	}
+
+.SubmitButton {
+	background: #EFEFEF;
+	font-family: verdana, arial;
+	font-weight: bold;
+  font-size: 11px;	
+	}
+	
+.RadioButton {
+	background: white;	
+	border: 0;
+	}
+
+td.PopUp {
+	font-family: verdana, arial;
+  font-size: 11px;
+	padding: 5;
+	border: 1 solid #888888;
+	}
+
+.CurrentList {
+	color: black;
+	background: #F7CB73;
+	font-family: verdana, arial;
+	font-size: 8px;
+	}
+	
+.CurrentHeader {
+	color: #FFFFFF;
+	background: #5A5A5A;
+	font-family: verdana, arial;
+	font-size: 11px;
+	font-weight: bold;
+	border: 0 solid black;
+	padding: 4;
+	padding-left: 4;
+}
+
+.CurrentBlock {
+	color: black;
+	background: #EFEFEF;
+	font-family: verdana, arial;
+	font-size: 11px;
+	border: 0 solid black;
+	padding: 4;
+}
+
+td.HorizMenu {
+	background: #EFEFEF;
+	color: #FFFFFF;
+	padding: 3;
+	font-family: verdana, arial;
+  font-size: 11px;
+	border-top: 1 solid #888888;
+	border-left: 1 solid #888888;
+	border-bottom: 1 solid #555555;
+	border-right: 1 solid #555555;
+	border: 1 solid black;
+	}
+
+#dhtmltooltip {
+	position: absolute;
+	width: 150px;
+	border: 2px solid black;
+	padding: 2px;
+	background-color: lightyellow;
+	visibility: hidden;
+	z-index: 100;
+	}
+
+.checkbox {
+ 	border: 0;
+ 	background: #FFFFFF;
+	}
+
+#dek {
+	POSITION:absolute;
+	VISIBILITY:hidden;
+	Z-INDEX:200;
+	}
